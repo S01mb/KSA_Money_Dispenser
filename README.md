@@ -37,21 +37,23 @@ You can continue transactions or exit the program.
 Example Run:
 Welcome to the KSA Money Dispenser!
 
-Total price: 245.75 SAR
+Total price: 175.49 SAR
 Insert money (0.05, 0.1, 0.25, 0.5, 1, 2, 5, 10, 20, 50, 100, 200, 500 SAR) or 'exit' to quit: 200
-Inserted: 200.00 SAR, Remaining: 45.75 SAR
-Insert money: 50
-Inserted: 250.00 SAR, Change: 4.25 SAR
-
-Change Breakdown:
- - 1 x 2.00 SAR
- - 1 x 2.00 SAR
- - 1 x 0.25 SAR
+Inserted: 200.00 SAR, Remaining: 0.00 SAR
+Change: 24.51 SAR
+Warning: Unable to return exact change. Remaining balance retained: 0.01 SAR
+ - 1 x 20.00 SAR
+ - 2 x 2.00 SAR
+ - 1 x 0.50 SAR
 
 Transaction Summary:
  - Total transactions: 1
- - Total amount processed: 245.75 SAR
- - Total change given: 4.25 SAR
+ - Total amount processed: 175.49 SAR
+ - Total change given: 24.50 SAR
+ - Total retained balance due to unavailable change: 0.01 SAR
+Continue? (yes/no): no
+
+Thank you for using the KSA Money Dispenser!
 
 ## Features
 Simulates real-world money transactions.
